@@ -1,0 +1,231 @@
+Last login: Tue Nov  3 13:08:52 on ttys000
+Sarah-Christian-Kopps-MacBook-Pro:~ Sarah$ ssh djk93533@k200.ecs.csun.edu
+djk93533@k200.ecs.csun.edu's password: 
+Last login: Tue Nov  3 13:09:05 2015 from 172.28.251.31
+_______________________________________________________________________________
+                            __________________  __
+                           / ______  ______  / / /
+                          / /     / /_    / / / /
+                         / /      \__ \  / / / /
+                        / /___ _____/ / / /_/ /
+                        \____/ \_____/  \____/
+
+                       N  O  R  T  H  R  I  D  G  E
+
+          C O L L E G E   O F   E N G I N E E R I N G   A N D 
+                    C O M P U T E R   S C I E N C E
+
+                    Connecting to k200.ecs.csun.edu
+________________________________________________________________________________
+
+
+-ksh-4.1$ cd Documents/Comp322/Project4
+-ksh-4.1$ ls
+djk93533  djk93533.c  djk93533.o  makefile  pid.c  pid.h  pid.o
+-ksh-4.1$ make all
+gcc -lpthread -c djk93533.c
+gcc -c pid.c
+gcc -lpthread -o djk93533 djk93533.o pid.o
+-ksh-4.1$ ./djk93533
+0Allocated Thread PID: 300 ------- Thread#1
+0Allocated Thread PID: 301 ------- Thread#2
+0Allocated Thread PID: 302 ------- Thread#3
+0Allocated Thread PID: 303 ------- Thread#4
+0Allocated Thread PID: 304 ------- Thread#5
+0Allocated Thread PID: 305 ------- Thread#6
+0Allocated Thread PID: 306 ------- Thread#7
+0Allocated Thread PID: 307 ------- Thread#8
+0Allocated Thread PID: 308 ------- Thread#9
+0Allocated Thread PID: 309 ------- Thread#10
+0Allocated Thread PID: 310 ------- Thread#11
+0Allocated Thread PID: 311 ------- Thread#12
+0Allocated Thread PID: 312 ------- Thread#13
+0Allocated Thread PID: 313 ------- Thread#14
+0Allocated Thread PID: 314 ------- Thread#15
+0Allocated Thread PID: 315 ------- Thread#16
+0Allocated Thread PID: 316 ------- Thread#17
+0Allocated Thread PID: 317 ------- Thread#18
+0Allocated Thread PID: 318 ------- Thread#19
+0Allocated Thread PID: 319 ------- Thread#20
+0Allocated Thread PID: 320 ------- Thread#21
+0Allocated Thread PID: 321 ------- Thread#22
+0Allocated Thread PID: 322 ------- Thread#23
+0Allocated Thread PID: 323 ------- Thread#24
+0Allocated Thread PID: 324 ------- Thread#25
+0Allocated Thread PID: 325 ------- Thread#26
+0Allocated Thread PID: 326 ------- Thread#27
+0Allocated Thread PID: 327 ------- Thread#28
+0Allocated Thread PID: 328 ------- Thread#29
+0Allocated Thread PID: 329 ------- Thread#30
+0Allocated Thread PID: 330 ------- Thread#31
+0Allocated Thread PID: 331 ------- Thread#32
+0Allocated Thread PID: 332 ------- Thread#33
+0Allocated Thread PID: 333 ------- Thread#34
+0Allocated Thread PID: 334 ------- Thread#35
+0Allocated Thread PID: 335 ------- Thread#36
+0Allocated Thread PID: 336 ------- Thread#37
+0Allocated Thread PID: 337 ------- Thread#38
+0Allocated Thread PID: 338 ------- Thread#39
+0Allocated Thread PID: 339 ------- Thread#40
+0Allocated Thread PID: 340 ------- Thread#41
+0Allocated Thread PID: 341 ------- Thread#42
+0Allocated Thread PID: 342 ------- Thread#43
+0Allocated Thread PID: 343 ------- Thread#44
+0Allocated Thread PID: 344 ------- Thread#45
+0Allocated Thread PID: 345 ------- Thread#46
+0Allocated Thread PID: 346 ------- Thread#47
+0Allocated Thread PID: 347 ------- Thread#48
+0Allocated Thread PID: 348 ------- Thread#49
+0Allocated Thread PID: 349 ------- Thread#50
+0Allocated Thread PID: 305 ------- Thread#51
+Released Thread PID: 305 ------- Thread#6
+Released Thread PID: 303 ------- Thread#4
+Released Thread PID: 312 ------- Thread#13
+0Allocated Thread PID: 303 ------- Thread#52
+0Allocated Thread PID: 312 ------- Thread#53
+0Released Thread PID: 316 ------- Thread#17
+Allocated Thread PID: 316 ------- Thread#54
+Released Thread PID: 325 ------- Thread#26
+0Allocated Thread PID: 325 ------- Thread#55
+Released Thread PID: 329 ------- Thread#30
+0Allocated Thread PID: 329 ------- Thread#56
+Released Thread PID: 348 ------- Thread#49
+Released Thread PID: 349 ------- Thread#50
+0Allocated Thread PID: 348 ------- Thread#57
+0Allocated Thread PID: 349 ------- Thread#58
+0Released Thread PID: 301 ------- Thread#2
+Allocated Thread PID: 301 ------- Thread#59
+Released Thread PID: 309 ------- Thread#10
+Released Thread PID: 306 ------- Thread#7
+0Allocated Thread PID: 309 ------- Thread#60
+0Allocated Thread PID: 306 ------- Thread#61
+0Allocated Thread PID: 315 ------- Thread#62
+Released Thread PID: 315 ------- Thread#16
+Released Thread PID: 317 ------- Thread#18
+0Allocated Thread PID: 317 ------- Thread#63
+0Allocated Thread PID: 320 ------- Thread#64
+Released Thread PID: 316 ------- Thread#54
+Released Thread PID: 319 ------- Thread#20
+Released Thread PID: 320 ------- Thread#21
+0Allocated Thread PID: 316 ------- Thread#65
+0Allocated Thread PID: 319 ------- Thread#66
+0Allocated Thread PID: 337 ------- Thread#67
+Released Thread PID: 338 ------- Thread#39
+Released Thread PID: 342 ------- Thread#43
+Released Thread PID: 337 ------- Thread#38
+0Allocated Thread PID: 338 ------- Thread#68
+0Allocated Thread PID: 342 ------- Thread#69
+Released Thread PID: 349 ------- Thread#58
+0Allocated Thread PID: 349 ------- Thread#70
+0Allocated Thread PID: 302 ------- Thread#71
+Released Thread PID: 302 ------- Thread#3
+Released Thread PID: 307 ------- Thread#8
+Released Thread PID: 311 ------- Thread#12
+0Allocated Thread PID: 307 ------- Thread#72
+0Allocated Thread PID: 311 ------- Thread#73
+Released Thread PID: 310 ------- Thread#11
+Released Thread PID: 306 ------- Thread#61
+Released Thread PID: 315 ------- Thread#62
+0Allocated Thread PID: 306 ------- Thread#74
+Released Thread PID: 303 ------- Thread#52
+Released Thread PID: 312 ------- Thread#53
+Released Thread PID: 318 ------- Thread#19
+Released Thread PID: 322 ------- Thread#23
+Released Thread PID: 326 ------- Thread#27
+Released Thread PID: 324 ------- Thread#25
+0Allocated Thread PID: 303 ------- Thread#75
+0Allocated Thread PID: 310 ------- Thread#76
+0Allocated Thread PID: 312 ------- Thread#77
+0Allocated Thread PID: 315 ------- Thread#78
+Released Thread PID: 328 ------- Thread#29
+0Allocated Thread PID: 318 ------- Thread#79
+0Allocated Thread PID: 322 ------- Thread#80
+0Allocated Thread PID: 324 ------- Thread#81
+0Allocated Thread PID: 326 ------- Thread#82
+Released Thread PID: 325 ------- Thread#55
+0Allocated Thread PID: 325 ------- Thread#83
+0Allocated Thread PID: 328 ------- Thread#84
+0Allocated Thread PID: 331 ------- Thread#85
+Released Thread PID: 332 ------- Thread#33
+0Allocated Thread PID: 332 ------- Thread#86
+Released Thread PID: 319 ------- Thread#66
+0Allocated Thread PID: 319 ------- Thread#87
+Released Thread PID: 331 ------- Thread#32
+Released Thread PID: 335 ------- Thread#36
+0Allocated Thread PID: 335 ------- Thread#88
+Released Thread PID: 339 ------- Thread#40
+0Allocated Thread PID: 339 ------- Thread#89
+Released Thread PID: 345 ------- Thread#46
+0Allocated Thread PID: 345 ------- Thread#90
+0Released Thread PID: 300 ------- Thread#1
+Allocated Thread PID: 300 ------- Thread#91
+Released Thread PID: 301 ------- Thread#59
+0Allocated Thread PID: 301 ------- Thread#92
+0Allocated Thread PID: 304 ------- Thread#93
+Released Thread PID: 307 ------- Thread#72
+Released Thread PID: 309 ------- Thread#60
+Released Thread PID: 314 ------- Thread#15
+0Allocated Thread PID: 307 ------- Thread#94
+Released Thread PID: 304 ------- Thread#5
+Released Thread PID: 306 ------- Thread#74
+0Allocated Thread PID: 306 ------- Thread#95
+0Released Thread PID: 321 ------- Thread#22
+Released Thread PID: 327 ------- Thread#28
+Allocated Thread PID: 309 ------- Thread#96
+0Allocated Thread PID: 314 ------- Thread#97
+0Allocated Thread PID: 321 ------- Thread#98
+0Allocated Thread PID: 327 ------- Thread#99
+Released Thread PID: 316 ------- Thread#65
+0Allocated Thread PID: 316 ------- Thread#100
+Released Thread PID: 322 ------- Thread#80
+Released Thread PID: 333 ------- Thread#34
+Released Thread PID: 336 ------- Thread#37
+Released Thread PID: 341 ------- Thread#42
+Released Thread PID: 337 ------- Thread#67
+Released Thread PID: 346 ------- Thread#47
+Released Thread PID: 348 ------- Thread#57
+Released Thread PID: 323 ------- Thread#24
+Released Thread PID: 308 ------- Thread#9
+Released Thread PID: 305 ------- Thread#51
+Released Thread PID: 301 ------- Thread#92
+Released Thread PID: 330 ------- Thread#31
+Released Thread PID: 320 ------- Thread#64
+Released Thread PID: 313 ------- Thread#14
+Released Thread PID: 325 ------- Thread#83
+Released Thread PID: 334 ------- Thread#35
+Released Thread PID: 329 ------- Thread#56
+Released Thread PID: 335 ------- Thread#88
+Released Thread PID: 340 ------- Thread#41
+Released Thread PID: 344 ------- Thread#45
+Released Thread PID: 343 ------- Thread#44
+Released Thread PID: 347 ------- Thread#48
+Released Thread PID: 349 ------- Thread#70
+Released Thread PID: 304 ------- Thread#93
+Released Thread PID: 311 ------- Thread#73
+Released Thread PID: 324 ------- Thread#81
+Released Thread PID: 310 ------- Thread#76
+Released Thread PID: 321 ------- Thread#98
+Released Thread PID: 314 ------- Thread#97
+Released Thread PID: 342 ------- Thread#69
+Released Thread PID: 300 ------- Thread#91
+Released Thread PID: 318 ------- Thread#79
+Released Thread PID: 326 ------- Thread#82
+Released Thread PID: 309 ------- Thread#96
+Released Thread PID: 331 ------- Thread#85
+Released Thread PID: 317 ------- Thread#63
+Released Thread PID: 319 ------- Thread#87
+Released Thread PID: 328 ------- Thread#84
+Released Thread PID: 338 ------- Thread#68
+Released Thread PID: 302 ------- Thread#71
+Released Thread PID: 307 ------- Thread#94
+Released Thread PID: 303 ------- Thread#75
+Released Thread PID: 312 ------- Thread#77
+Released Thread PID: 315 ------- Thread#78
+Released Thread PID: 332 ------- Thread#86
+Released Thread PID: 345 ------- Thread#90
+Released Thread PID: 339 ------- Thread#89
+Released Thread PID: 306 ------- Thread#95
+Released Thread PID: 316 ------- Thread#100
+Released Thread PID: 327 ------- Thread#99
+***DONE***
+-ksh-4.1$ 
